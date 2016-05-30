@@ -1,0 +1,9 @@
+<!doctype html>
+<title> {{symbol}} Data </title>
+<link rel=stylesheet type=text/css href='{{ url_for('static',filename='style.css')}}'>
+<div class=page>
+	<a href='main_page' title='Back'><b>BACK</b></a><br /><br />
+	<h1>Graph for {{symbol}}</h1>
+	{% include "lines.html" %}
+</div>
+	

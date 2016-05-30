@@ -1,0 +1,31 @@
+<!doctype html>
+<title>John Kinol Milestone Project</title>
+<link rel=stylesheet type=text/css href='{{ url_for('static',filename='style.css')}}'>
+<div class=page>
+	<h1>Stock Data</h1>
+	<div class=metanav>
+	
+		<h4>
+			Please enter a stock symbol along with desired information then click Submit
+		
+
+			<form id='stockname' method='post' action='main_page' >
+				<p>
+					Stock Symbol: <input type='text' name='stock' />
+				</p>
+				<p>
+					Features: <br />
+					<input type='checkbox' name='features' value='Close' /> Closing price <br />
+					<input type='checkbox' name='features' value='Adj. Close' /> Adjusted closing price <br />
+					<input type='checkbox' name='features' value='Open' /> Opening price <br />
+					<input type='checkbox' name='features' value='Adj. Open' /> Adjusted opening price <br />
+				</p>
+				<p>
+					<input type='submit' value='Submit' />
+
+				</p>
+			</form>
+		</h4>
+	</div>
+</div>
+		

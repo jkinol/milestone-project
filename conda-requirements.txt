@@ -1,0 +1,6 @@
+flask
+scipy
+numpy
+pandas
+bokeh
+Quandl
